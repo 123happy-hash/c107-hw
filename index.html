@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Animal Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+      <center>
+        <div id = "header">
+          <h1 id = "SoundHeading">Sound identifying Animals</h1>
+          <h3 id = "SoundNote">Note : Each sounds will identify different dangerous animals that might be encountered out in the wild</h3>
+        </div>
+        <br>
+        <br>
+        <button onclick = "StartSound()" id = "startButton" class = "btn btn-danger">Identify</button>
+        <br>
+        <br>
+        <h1 id = "SoundOutput">I can Hear : </h1>
+        <br>
+        <h2 id = "AccuracyOutput">Accuracy : </h2>
+        <br>
+        <img id = "Animal1" height = "250" width = "250" src = "barking-dog-with-rabies.jpg">
+        <img id = "Animal2" height = "250" width = "250" src = "272-004-381F66E5.webp"
+        <img id = "Animal3" height = "250" width = "250" src = "leopard roar.jpg">
+        <img id = "Animal4" height = "250" width = "250" src = "_methode_times_prod_web_bin_864b345a-0e27-11eb-94f0-d7c8706d29dd.jpg">
+        <img id = "Animal5" height = "250" width = "250" src = "ostrish attack.jpg">
+        <br>
+        <br>
+        <br>
+        <div id = "Development">
+          <h1>Developed by - Oscar Li</h1>
+        </div>
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
